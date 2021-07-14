@@ -2,5 +2,7 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/css/front-app.css": "/css/front-app.css",
-    "/js/front-app.js": "/js/front-app.js"
+    "/js/app.js.map": "/js/app.js.map",
+    "/js/front-app.js": "/js/front-app.js",
+    "/js/front-app.js.map": "/js/front-app.js.map"
 }
