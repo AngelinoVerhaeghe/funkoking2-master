@@ -1,4 +1,4 @@
-@import 'fonts';
+@import "fonts";
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
@@ -28,7 +28,8 @@ nav {
         color: $accent;
     }
 
-    .fas, .far {
+    .fas,
+    .far {
         color: white;
     }
 
@@ -65,7 +66,6 @@ nav {
             }
         }
     }
-
 
     .searchbar {
         margin-bottom: auto;
@@ -166,14 +166,16 @@ nav {
         box-shadow: none;
     }
 
-    .btn-winkelwagen, .btn-checkout {
+    .btn-winkelwagen,
+    .btn-checkout {
         background: transparent;
         border: 1px solid black;
         border-radius: 30px;
         color: black;
     }
 
-    .btn-checkout:hover, .btn-winkelwagen:hover {
+    .btn-checkout:hover,
+    .btn-winkelwagen:hover {
         background: transparent;
         border: 1px solid $accent;
         border-radius: 30px;
@@ -202,7 +204,6 @@ nav {
             color: black;
             cursor: pointer;
         }
-
     }
 
     .input-group {
@@ -218,13 +219,13 @@ nav {
             color: black;
         }
     }
-
 }
 
 #header-content {
     padding-bottom: 10% !important;
 
-    h1, h5 {
+    h1,
+    h5 {
         font-family: osbold, sans-serif;
         font-size: 1rem;
     }
@@ -250,10 +251,11 @@ nav {
     }
 }
 
-#best-sellers, #aanbevolen {
+#best-sellers,
+#aanbevolen {
     p {
         font-family: montmedium, sans-serif;
-        font-size: 0.90rem;
+        font-size: 0.9rem;
     }
 
     a {
@@ -304,7 +306,7 @@ nav {
         overflow: hidden;
         width: 100%;
         height: 0;
-        transition: .8s ease;
+        transition: 0.8s ease;
     }
 
     .btn {
@@ -320,18 +322,24 @@ nav {
         height: 100%;
         //opacity: 0.8;
         .slide-in-bottom {
-            -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            -webkit-animation: slide-in-bottom 1s
+                cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                both;
         }
 
         .slide-in-bottom2 {
-            -webkit-animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            -webkit-animation: slide-in-bottom 1.2s
+                cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                both;
         }
 
         .slide-in-bottom3 {
-            -webkit-animation: slide-in-bottom 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-bottom 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            -webkit-animation: slide-in-bottom 1.4s
+                cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-bottom 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                both;
         }
     }
 
@@ -371,7 +379,6 @@ nav {
             opacity: 1;
         }
     }
-
 }
 
 #service {
@@ -384,7 +391,7 @@ nav {
 
     p {
         font-family: montmedium, sans-serif;
-        font-size: 0.90rem;
+        font-size: 0.9rem;
         color: $gray;
     }
 }
@@ -422,7 +429,6 @@ nav {
         font-family: osmedium, sans-serif;
         font-size: 1.1rem;
     }
-
 }
 
 #bg-newsletter {
@@ -440,6 +446,7 @@ nav {
         font-family: osbold, sans-serif;
         font-size: 1rem;
         color: black;
+        padding-top: 1rem;
     }
 
     p {
@@ -472,7 +479,6 @@ nav {
         margin-left: -10%;
         margin-bottom: 10%;
     }
-
 }
 
 #bgnewsletter {
@@ -691,7 +697,7 @@ nav {
     }
 
     .ui-slider-horizontal {
-        height: .6em;
+        height: 0.6em;
     }
 
     .ui-state-default {
@@ -707,11 +713,9 @@ nav {
         background: $accent;
         border-style: none;
     }
-
 }
 
 #products-filters {
-
     .aantal {
         font-family: montmedium, sans-serif;
         font-size: 0.88rem;
@@ -771,7 +775,7 @@ nav {
         overflow: hidden;
         width: 100%;
         height: 0;
-        transition: .8s ease;
+        transition: 0.8s ease;
     }
 
     .btn {
@@ -787,18 +791,24 @@ nav {
         height: 100%;
         //opacity: 0.8;
         .slide-in-bottom {
-            -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            -webkit-animation: slide-in-bottom 1s
+                cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                both;
         }
 
         .slide-in-bottom2 {
-            -webkit-animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            -webkit-animation: slide-in-bottom 1.2s
+                cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                both;
         }
 
         .slide-in-bottom3 {
-            -webkit-animation: slide-in-bottom 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-bottom 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            -webkit-animation: slide-in-bottom 1.4s
+                cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-bottom 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                both;
         }
     }
 
@@ -848,7 +858,6 @@ nav {
         background-color: white !important;
 
         .pagination {
-
             .page-item.active .page-link {
                 color: $accent;
                 background-color: transparent !important;
@@ -858,7 +867,6 @@ nav {
             .page-item.disabled .page-link {
                 border-color: white;
             }
-
         }
 
         .pagination > li > a {
@@ -879,7 +887,7 @@ nav {
             z-index: 2;
             color: white;
             background-position: 0 -4px;
-            background-image: url('../../front_assets/images/paintspot.jpg');
+            background-image: url("../../front_assets/images/paintspot.jpg");
             background-repeat: no-repeat;
         }
 
@@ -887,7 +895,6 @@ nav {
             text-decoration: none !important;
         }
     }
-
 }
 
 #detail-product {
@@ -910,7 +917,7 @@ nav {
     }
 
     p {
-        font-size: 0.90rem;
+        font-size: 0.9rem;
     }
 
     .knop {
@@ -954,23 +961,23 @@ nav {
 
     .star {
         color: $accent;
-        font-size: 2.0rem;
+        font-size: 2rem;
         //padding: 0 1rem; /* space out the stars */
     }
 
     .star::before {
-        content: '\2606'; /* star outline */
+        content: "\2606"; /* star outline */
         cursor: pointer;
     }
 
     .star.rated::before {
         /* the style for a selected star */
-        content: '\2605'; /* filled star */
+        content: "\2605"; /* filled star */
     }
 
     .stars {
         counter-reset: rateme 0;
-        font-size: 2.0rem;
+        font-size: 2rem;
         font-weight: 900;
     }
 
@@ -981,9 +988,8 @@ nav {
     .stars::after {
         color: $accent;
         font-size: 1rem;
-        content: counter(rateme) '/5';
+        content: counter(rateme) "/5";
     }
-
 }
 
 #product-mid {
@@ -1004,7 +1010,6 @@ nav {
         border: 1px solid black;
         border-radius: 30px;
         color: black;
-
     }
 
     button {
@@ -1030,7 +1035,10 @@ nav {
         border: none;
     }
 
-    #beschrijving-tab, #myTabContent, #beoordelingen-tab, #reviews-tab {
+    #beschrijving-tab,
+    #myTabContent,
+    #beoordelingen-tab,
+    #reviews-tab {
         background: white;
 
         h2 {
@@ -1045,13 +1053,13 @@ nav {
         }
 
         .star::before {
-            content: '\2606'; /* star outline */
+            content: "\2606"; /* star outline */
             cursor: pointer;
         }
 
         .star.rated::before {
             /* the style for a selected star */
-            content: '\2605'; /* filled star */
+            content: "\2605"; /* filled star */
         }
 
         .stars {
@@ -1097,7 +1105,8 @@ nav {
         font-size: 1rem;
     }
 
-    .carousel-control-prev, .carousel-control-next {
+    .carousel-control-prev,
+    .carousel-control-next {
         color: black;
         //opacity: 0.5;
         width: 55px;
@@ -1132,7 +1141,6 @@ nav {
             color: white;
         }
     }
-
 }
 
 #cart-products {
@@ -1146,30 +1154,35 @@ nav {
         font-size: 1.2rem;
     }
 
-    a, .btn-remove {
+    a,
+    .btn-remove {
         color: white;
     }
 
-    .icon-verlang, .icon-trash {
+    .icon-verlang,
+    .icon-trash {
         background: white;
         color: black;
         border: 1px solid black;
     }
 
-    .icon-verlang:hover, .icon-trash:hover {
+    .icon-verlang:hover,
+    .icon-trash:hover {
         background: $accent;
         color: white;
         border: 1px solid white;
         transition: 0.5s ease;
     }
 
-    #btn-renew, #btn-continue {
+    #btn-renew,
+    #btn-continue {
         background: white;
         color: black;
         border: 1px solid black;
     }
 
-    #btn-renew:hover, #btn-continue:hover {
+    #btn-renew:hover,
+    #btn-continue:hover {
         background: $accent;
         color: white;
         border: 1px solid $accent;
@@ -1224,7 +1237,6 @@ nav {
     ::placeholder {
         font-size: 0.75rem;
     }
-
 }
 
 #totaal {
@@ -1249,10 +1261,9 @@ nav {
         border: 1px solid $accent;
     }
 
-    input{
+    input {
         font-weight: 700;
     }
-
 }
 
 #checkout-info {
@@ -1387,7 +1398,6 @@ nav {
             color: black;
             cursor: pointer;
         }
-
     }
 
     #myTab {
@@ -1404,7 +1414,7 @@ nav {
         height: 40px;
         padding: 10px 12px;*/
         /*border: 1px solid transparent;*/
-       /* border-radius: 4px;
+        /* border-radius: 4px;
         background-color: white;
 
         box-shadow: 0 1px 3px 0 #e6ebf1;
@@ -1414,11 +1424,10 @@ nav {
         background-color: white;
         padding: 12px 12px;
         border: 1px solid black;
-
     }
 
     .StripeElement--focus {
-       /* box-shadow: 0 1px 3px 0 #cfd7df;*/
+        /* box-shadow: 0 1px 3px 0 #cfd7df;*/
     }
 
     .StripeElement--invalid {
@@ -1432,7 +1441,6 @@ nav {
     #card-errors {
         color: #fa755a;
     }
-
 }
 
 #mid-content {
@@ -1463,7 +1471,6 @@ nav {
     input:focus {
         //outline: 0 0 0 0  !important;
         box-shadow: 0 0 0 0 !important;
-
     }
 
     .remember {
@@ -1532,8 +1539,6 @@ nav {
         border-radius: 0px;
         box-shadow: none;
     }
-
-
 }
 
 #fqa {
@@ -1613,7 +1618,6 @@ nav {
         color: $accent;
         text-decoration: none;
     }
-
 }
 
 #wishlist-content {
@@ -1627,7 +1631,8 @@ nav {
         font-size: 1.2rem;
     }
 
-    a, .btn-remove {
+    a,
+    .btn-remove {
         color: white;
     }
 
@@ -1644,7 +1649,8 @@ nav {
         color: $accent;
     }
 
-    .icon-verlang, .icon-trash {
+    .icon-verlang,
+    .icon-trash {
         background: white;
         color: black;
         border: 1px solid black;
@@ -1654,7 +1660,8 @@ nav {
         color: $accent;
     }
 
-    .icon-verlang:hover, .icon-trash:hover {
+    .icon-verlang:hover,
+    .icon-trash:hover {
         background: $accent;
         color: white;
         border: 1px solid white;
@@ -1768,7 +1775,6 @@ nav {
         font-family: osbold, sans-serif;
         font-size: 1.5rem;
     }
-
 }
 
 #account {
@@ -1804,7 +1810,6 @@ nav {
     }
 }
 
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     nav {
@@ -1820,7 +1825,8 @@ nav {
     #header-content {
         padding-bottom: 15% !important;
 
-        h1, h5 {
+        h1,
+        h5 {
             font-family: osbold, sans-serif;
             font-size: 1.8rem;
         }
@@ -1905,7 +1911,6 @@ nav {
         p {
             font-size: 1rem;
         }
-
     }
     #checkout-info {
         .input-group {
@@ -1929,7 +1934,8 @@ nav {
             color: $accent;
         }
 
-        .fas, .far {
+        .fas,
+        .far {
             color: white;
         }
 
@@ -2007,7 +2013,8 @@ nav {
     #header-content {
         padding-bottom: 10% !important;
 
-        h1, h5 {
+        h1,
+        h5 {
             font-family: osbold, sans-serif;
             font-size: 2.5rem;
         }
@@ -2087,7 +2094,6 @@ nav {
         ::placeholder {
             color: black;
         }
-
     }
     #detail-product {
         h2 {
@@ -2098,10 +2104,10 @@ nav {
         p {
             font-size: 1rem;
         }
-
     }
     #carousel-slide {
-        .carousel-control-prev, .carousel-control-next {
+        .carousel-control-prev,
+        .carousel-control-next {
             color: black;
             opacity: 0.5;
             width: 60px;
@@ -2130,7 +2136,8 @@ nav {
             color: $accent;
         }
 
-        .fas, .far {
+        .fas,
+        .far {
             color: white;
         }
 
@@ -2204,7 +2211,8 @@ nav {
         padding-bottom: 14% !important;
         width: 35%;
 
-        h1, h5 {
+        h1,
+        h5 {
             font-size: 3rem;
         }
 
@@ -2302,7 +2310,8 @@ nav {
         }
     }
     #carousel-slide {
-        .carousel-control-prev, .carousel-control-next {
+        .carousel-control-prev,
+        .carousel-control-next {
             color: black;
             opacity: 0.5;
             width: 0px;
@@ -2318,7 +2327,6 @@ nav {
         p {
             font-size: 1rem;
         }
-
     }
     #cart-products {
         h2 {
@@ -2326,7 +2334,8 @@ nav {
             font-size: 1.8rem;
         }
 
-        p, label {
+        p,
+        label {
             font-size: 1rem;
         }
 
@@ -2335,7 +2344,8 @@ nav {
         }
     }
     #gifts {
-        .tbox, .btn {
+        .tbox,
+        .btn {
             border: none;
             outline: none;
         }
@@ -2345,7 +2355,8 @@ nav {
             transition: 0.6s;
         }
 
-        .korting-box:hover > .tbox, .tbox:focus {
+        .korting-box:hover > .tbox,
+        .tbox:focus {
             width: 260px;
             padding: 0 10px;
             border: 1px solid $accent;
@@ -2371,7 +2382,8 @@ nav {
             font-size: 1.8rem;
         }
 
-        p, label {
+        p,
+        label {
             font-size: 1rem;
         }
     }
@@ -2420,7 +2432,6 @@ nav {
         ::placeholder {
             color: black;
         }
-
     }
     #checkout-info {
         .input-group {
@@ -2436,7 +2447,6 @@ nav {
     nav {
         //background: black;
 
-
         h2 {
             font-family: osbold, sans-serif;
             font-size: 3rem;
@@ -2447,7 +2457,8 @@ nav {
             color: $accent;
         }
 
-        .fas, .far {
+        .fas,
+        .far {
             color: white;
         }
 
@@ -2516,14 +2527,13 @@ nav {
            top: 30%;
            left: 96.7%;
          }*/
-
-
     }
     #header-content {
         padding-bottom: 14% !important;
         width: 29%;
 
-        h1, h5 {
+        h1,
+        h5 {
             font-size: 5rem;
         }
 
@@ -2575,7 +2585,7 @@ nav {
         }
     }
     .parallax {
-        background-image: url('../../front_assets/images/newsletter-background.jpg');
+        background-image: url("../../front_assets/images/newsletter-background.jpg");
         height: 100%;
         background-attachment: fixed;
         background-position: center;
@@ -2593,7 +2603,6 @@ nav {
         }
 
         .prijs {
-
             font-size: 1.4rem;
         }
     }
@@ -2605,7 +2614,6 @@ nav {
             font-family: osmedium, sans-serif;
             font-size: 1.5rem;
         }
-
     }
     #carousel-slide {
         h5 {
@@ -2617,7 +2625,8 @@ nav {
             font-size: 1rem;
         }
 
-        .carousel-control-prev, .carousel-control-next {
+        .carousel-control-prev,
+        .carousel-control-next {
             color: black;
             opacity: 0.5;
             width: 0px;

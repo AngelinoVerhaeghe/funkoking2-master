@@ -20,7 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('admin');
 
@@ -107,6 +106,9 @@ Route::post('/contact', 'ContactController@store');
 Route::post('/payments/pay', 'PaymentController@pay')->name('pay');
 Route::get('/payments/approval', 'PaymentController@approval')->name('approval');
 Route::get('/payments/cancelled', 'PaymentController@cancelled')->name('cancelled');
+
+//Newsletter:
+Route::post('/subscribe', 'NewsLetterController@subscribe')->name('newsletter');
 
 //Paginate
 

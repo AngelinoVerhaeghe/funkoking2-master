@@ -11427,6 +11427,7 @@ nav .btn-remove i {
   font-family: osbold, sans-serif;
   font-size: 1rem;
   color: black;
+  padding-top: 1rem;
 }
 
 #bg-newsletter p {
@@ -12448,11 +12449,11 @@ nav .btn-remove i {
   padding: 10px 12px;*/
   /*border: 1px solid transparent;*/
   /* border-radius: 4px;
-   background-color: white;
+  background-color: white;
 
-   box-shadow: 0 1px 3px 0 #e6ebf1;
-   -webkit-transition: box-shadow 150ms ease;
-   transition: box-shadow 150ms ease;*/
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;*/
   background-color: white;
   padding: 12px 12px;
   border: 1px solid black;

@@ -151,40 +151,54 @@
                 </div>
             </div>
         </section>
-        <section id="bg-newsletter" class="row d-block d-sm-block d-md-block d-lg-block d-xl-none">
+        {{-- <section id="bg-newsletter" class="row d-block d-sm-block d-md-block d-lg-block d-xl-none">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="img-fluid" src="{{asset('images/newsletter-background.jpg')}}" alt="image">
                     <div class="carousel-caption">
                         <div class="card">
-                            <h3>SCHRIJF JE IN OP ONZE NIEUWSBRIEF</h3>
-                            <p>Nieuws en Speciale actie's</p>
-                            <form action="email">
-                                <div><input class="rounded-0" type="email" placeholder="E-mail" size="25" required></div>
-                                <div class="py-3">
-                                    <button type="submit" class="btn">Verzenden</button>
-                                </div>
-                            </form>
+                            <div class="card-body text-center">
+                                <h3>SCHRIJF JE IN OP ONZE NIEUWSBRIEF</h3>
+                                <p>Nieuws en Speciale actie's</p>
+                                <form action="{{ route('newsletter', 'subscribe') }}" method="POST">
+                                    @csrf
+                                    <div><input type="email" name="email" placeholder="Enter Email" required></div>
+                                    <div class="py-3">
+                                        <button type="submit" class="btn">Verzenden</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
+                        @if(Session::has('created_newsletter'))
+                        <div class="alert alert-success fade show text-center" role="alert">
+                            {{session('created_newsletter')}}
+                        </div>
+                         @endif
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="nieuwsbrief" class="row d-none d-sm-none d-md-none d-lg-none d-xl-block parallax">
+        </section> --}}
+        <section id="nieuwsbrief" class="row d-block parallax">
             <div id="bgnewsletter" class="col-lg-8 offset-lg-2 d-flex justify-content-center py-5">
                 <div class="col-lg-9 p-0">
                     <div class="card">
                         <div class="card-body text-center">
                             <h3>SCHRIJF JE IN OP ONZE NIEUWSBRIEF</h3>
                             <p>Nieuws en Speciale actie's</p>
-                            <form action="email">
-                                <div><input type="email" placeholder="E-mail" size="25" required></div>
+                            <form action="{{ route('newsletter', 'subscribe') }}" method="POST">
+                                @csrf
+                                <div><input type="email" name="email" placeholder="Enter Email" required></div>
                                 <div class="py-3">
                                     <button type="submit" class="btn">Verzenden</button>
                                 </div>
                             </form>
                         </div>
                     </div>
+                    @if(Session::has('created_newsletter'))
+                        <div class="alert alert-success fade show text-center" role="alert">
+                            {{session('created_newsletter')}}
+                        </div>
+                    @endif
                 </div>
             </div>
         </section>
